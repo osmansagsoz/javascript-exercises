@@ -1,0 +1,1 @@
+This repo contains my exercises on beginner javascript course by wesbos.
