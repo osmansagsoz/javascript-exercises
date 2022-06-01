@@ -1,0 +1,23 @@
+{
+  "name": "javascript-exercises",
+  "version": "1.0.0",
+  "description": "This repo contains my exercises on beginner javascript course by wesbos.",
+  "main": "DOM-cardiopart1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmansagsoz/javascript-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osmansagsoz/javascript-exercises/issues"
+  },
+  "homepage": "https://github.com/osmansagsoz/javascript-exercises#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2"
+  }
+}
