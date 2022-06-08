@@ -97,6 +97,9 @@ const colors = ['#DC180A', '#FFB901', '#53A63C', '#F2BDBD', '#ffffff'];
 const randomColor = colors[Math.floor(Math.random() * colors.length)];
 
 const spans = document.querySelectorAll('span');
-spans.forEach(span => {
+spans.forEach((span, index) => {
+    const colors = ['#DC180A', '#FFB901', '#53A63C', '#F2BDBD', '#ffffff'];
+    // const randomColor = colors[Math.floor(Math.random() * colors.length)];
+   const randomColor = colors[index % colors.length]
     span.style.setProperty('--random', randomColor);
 })
